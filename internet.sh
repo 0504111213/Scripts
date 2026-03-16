@@ -1,10 +1,11 @@
 #! /bin/bash
 opciones="Mostrar_Interfaces Cambiar_Estado Establecer_Cableada Establecer_Wi-Fi Salir"
 ayuda () {
-	echo ""
-	echo ""
-	echo ""
-	echo ""
+	echo "USO DE SCRIPT ./internet.sh"
+	echo "Este script sirve para realizar una conexion de internet de las diferentes formas (Ethernet o Wi-Fi)"
+	echo "Se debe seleccionar una opcion valida mediante el numero indicado dependiendo lo que se desee realizar"
+	echo "En cada opcion para escribir se pone un ejemplo para poder saber como se debe escribir correctamente para que no existan errores"
+	echo "NOTA: Se recomienda ejecutar el script como super usuario para que no exista conflicto con los comandos."
 }
 interfaces="/etc/network/interfaces"
 mostrar_interfaces(){
